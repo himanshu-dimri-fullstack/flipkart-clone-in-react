@@ -52,6 +52,7 @@
                 "/assets/product/mobile-1.jpg",
                 "/assets/product/mobile-1-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 16999,
@@ -71,6 +72,7 @@
             "thumbnails": [
                 "/assets/product/mobile-2.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 22999,
@@ -87,10 +89,11 @@
             "subSlug": "mobiles",
             "subcategoryId": 1,
             "image": "/assets/product/mobile-3.jpg",
-            "thumnails": [
+            "thumbnails": [
                 "/assets/product/mobile-3.jpg",
                 "/assets/product/mobile-3-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 17999,
@@ -111,6 +114,7 @@
                 "/assets/product/mobile-1.jpg",
                 "/assets/product/mobile-1-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 16999,
@@ -130,6 +134,7 @@
             "thumbnails": [
                 "/assets/product/mobile-2.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 22999,
@@ -146,10 +151,11 @@
             "subSlug": "mobiles",
             "subcategoryId": 1,
             "image": "/assets/product/mobile-3.jpg",
-            "thumnails": [
+            "thumbnails": [
                 "/assets/product/mobile-3.jpg",
                 "/assets/product/mobile-3-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 17999,
@@ -290,6 +296,7 @@
                 "/assets/product/mobile-1.jpg",
                 "/assets/product/mobile-1-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 16999,
@@ -309,6 +316,7 @@
             "thumbnails": [
                 "/assets/product/mobile-2.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 22999,
@@ -329,6 +337,7 @@
                 "/assets/product/mobile-3.jpg",
                 "/assets/product/mobile-3-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 17999,
@@ -349,6 +358,7 @@
                 "/assets/product/mobile-1.jpg",
                 "/assets/product/mobile-1-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 16999,
@@ -368,6 +378,7 @@
             "thumbnails": [
                 "/assets/product/mobile-2.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 22999,
@@ -388,6 +399,7 @@
                 "/assets/product/mobile-3.jpg",
                 "/assets/product/mobile-3-1.jpg"
             ],
+            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
             "rating": 3.8,
             "reviews": "9.7K",
             "price": 17999,

@@ -2,7 +2,7 @@ import { ArrowBigDownDash, ArrowDown, ChevronDown, ShoppingCart, User } from "lu
 
 const NavbarBelt = () => {
     return (
-        <div className="grid grid-cols-12 gap-3 border-b border-solid border-[#ccc] pt-1 pb-3 md:py-3">
+        <div className="grid grid-cols-12 gap-3 pt-1 pb-3 md:py-3">
             <div className="col-span-12 md:col-span-7 xl:col-span-9">
                 <input className="w-full h-10 px-2 text-black text-lg border border-[#2a55e5] rounded-lg" placeholder="Search for Products" />
             </div>

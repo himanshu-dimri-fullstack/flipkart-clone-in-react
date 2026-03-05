@@ -16,19 +16,23 @@ const ProductPage = () => {
     }, [])
 
     return (
-        <div className="container mx-auto px-6 lg:px-12 py-3 md:py-4">
-            <h2 className="text-lg md:text-2xl text-black font-bold mb-3 md:mb-6">Suggested For You</h2>
-            <div className="grid grid-cols-12">
-                {
-                    products.map((product) => {
-                        return (
-                            <Link to={`/${product.subSlug}/${product.slug}`} key={product.id} className="col-span-6 md:col-span-3 lg:col-span-2 pb-2 pr-2">
-                                <ProductCard product={product} />
-                            </Link>
-                        )
-                    })
-                }
+        <div className="container mx-auto px-6 lg:px-12">
+            <hr className="text-[#ccc]" />
+            <div className="my-3 md:my-4">
+                <h2 className="text-lg md:text-2xl text-black font-bold mb-3 md:mb-6">Suggested For You</h2>
+                <div className="grid grid-cols-12">
+                    {
+                        products.map((product) => {
+                            return (
+                                <Link to={`/${product.subSlug}/${product.slug}`} key={product.id} className="col-span-6 md:col-span-3 lg:col-span-2 pb-2 pr-2">
+                                    <ProductCard product={product} />
+                                </Link>
+                            )
+                        })
+                    }
+                </div>
             </div>
+
         </div>
     )
 }
