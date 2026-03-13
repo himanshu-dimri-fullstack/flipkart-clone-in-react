@@ -2,8 +2,11 @@ import { ArrowBigDownDash, ArrowDown, ChevronDown, ShoppingCart, User } from "lu
 import { CartContext } from "../../context/CartContext"
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../context/AuthContext";
 
 const NavbarBelt = () => {
+
+    const { user } = useContext(AuthContext);
 
     const { cart } = useContext(CartContext);
     return (
@@ -13,11 +16,21 @@ const NavbarBelt = () => {
             </div>
             <div className="hidden md:block md:col-span-5 xl:col-span-3 pl-10">
                 <div className="flex justify-between items-center h-10">
-                    <div className="flex gap-2">
-                        <User size={18} />
-                        <span className="text-black text-sm">Login</span>
-                        <ChevronDown size={18} />
-                    </div>
+                    {
+                        user ?
+                            <div className="flex gap-2">
+                                <User size={18} />
+                                <span className="text-black text-sm">{user.name}</span>
+                                <ChevronDown size={18} />
+                            </div>
+                            :
+                            <div className="flex gap-2">
+                                <User size={18} />
+                                <span className="text-black text-sm">Login</span>
+                                <ChevronDown size={18} />
+                            </div>
+                    }
+
                     <div className="flex gap-2">
                         <span className="text-black text-sm">More</span>
                         <ChevronDown size={18} />

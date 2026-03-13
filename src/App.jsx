@@ -9,6 +9,8 @@ import ScrollToTop from './components/ScrollToTop'
 import Cart from './pages/Cart'
 import CheckoutPage from './pages/Checkout'
 import OrderSuccess from './pages/OrderSuccess'
+import Login from './pages/auth/Login'
+import Dashboard from './pages/dashboard/Dashboard'
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/order-success" element={<OrderSuccess />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </>
