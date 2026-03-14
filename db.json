@@ -1,529 +1,535 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Electronics",
-            "slug": "electronics"
-        },
-        {
-            "id": 2,
-            "name": "Fashion",
-            "slug": "fashion"
-        },
-        {
-            "id": 3,
-            "name": "Home & Kitchen",
-            "slug": "home-kitchen"
-        },
-        {
-            "id": 4,
-            "name": "Computers",
-            "slug": "computers"
-        },
-        {
-            "id": 5,
-            "name": "Watches",
-            "slug": "watches"
-        }
-    ],
-    "subcategories": [
-        {
-            "id": 1,
-            "name": "Mobiles",
-            "slug": "mobiles",
-            "categoryId": 1
-        },
-        {
-            "id": 2,
-            "name": "Wrist Watches",
-            "slug": "wrist-watches",
-            "categoryId": 5
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
-            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-1.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-1.jpg",
-                "/assets/product/mobile-1-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 16999,
-            "discount": 0,
-            "brand": "POCO",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 2,
-            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
-            "slug": "Nothing-Phone-Lite-Black-128",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-2.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-2.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 22999,
-            "discount": 14,
-            "brand": "Nothing",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 3,
-            "title": "Motorola G57 Power 5G",
-            "slug": "Motorola-G57-Snapdragon-Processor",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-3.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-3.jpg",
-                "/assets/product/mobile-3-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 17999,
-            "discount": 22,
-            "brand": "Motorola",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android"
-        },
-        {
-            "id": 4,
-            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
-            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-1.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-1.jpg",
-                "/assets/product/mobile-1-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 16999,
-            "discount": 0,
-            "brand": "POCO",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 5,
-            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
-            "slug": "Nothing-Phone-Lite-Black-128",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-2.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-2.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 22999,
-            "discount": 14,
-            "brand": "Nothing",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 6,
-            "title": "Motorola G57 Power 5G",
-            "slug": "Motorola-G57-Snapdragon-Processor",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-3.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-3.jpg",
-                "/assets/product/mobile-3-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 17999,
-            "discount": 22,
-            "brand": "Motorola",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android"
-        },
-        {
-            "id": 7,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 8,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 9,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 10,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 11,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 12,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 13,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 14,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 15,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 16,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 17,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 18,
-            "title": "Sylvi Urbane Watch",
-            "slug": "sylvi-urbane-watch",
-            "subSlug": "wrist-watches",
-            "subcategoryId": 2,
-            "price": 1949,
-            "category": "watches",
-            "image": "/assets/product/watch.webp",
-            "thumbnails": [
-                "/assets/product/watch.webp",
-                "/assets/product/watch.webp"
-            ],
-            "rating": 3.8,
-            "reviews": "9.7K"
-        },
-        {
-            "id": 19,
-            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
-            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-1.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-1.jpg",
-                "/assets/product/mobile-1-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 16999,
-            "discount": 0,
-            "brand": "POCO",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 20,
-            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
-            "slug": "Nothing-Phone-Lite-Black-128",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-2.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-2.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 22999,
-            "discount": 14,
-            "brand": "Nothing",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 21,
-            "title": "Motorola G57 Power 5G",
-            "slug": "Motorola-G57-Snapdragon-Processor",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-3.jpg",
-            "thumnails": [
-                "/assets/product/mobile-3.jpg",
-                "/assets/product/mobile-3-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 17999,
-            "discount": 22,
-            "brand": "Motorola",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android"
-        },
-        {
-            "id": 22,
-            "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
-            "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-1.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-1.jpg",
-                "/assets/product/mobile-1-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 16999,
-            "discount": 0,
-            "brand": "POCO",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 23,
-            "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
-            "slug": "Nothing-Phone-Lite-Black-128",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-2.jpg",
-            "thumbnails": [
-                "/assets/product/mobile-2.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 22999,
-            "discount": 14,
-            "brand": "Nothing",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android 15"
-        },
-        {
-            "id": 24,
-            "title": "Motorola G57 Power 5G",
-            "slug": "Motorola-G57-Snapdragon-Processor",
-            "subSlug": "mobiles",
-            "subcategoryId": 1,
-            "image": "/assets/product/mobile-3.jpg",
-            "thumnails": [
-                "/assets/product/mobile-3.jpg",
-                "/assets/product/mobile-3-1.jpg"
-            ],
-            "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
-            "rating": 3.8,
-            "reviews": "9.7K",
-            "price": 17999,
-            "discount": 22,
-            "brand": "Motorola",
-            "ram": "8GB",
-            "storage": "128GB",
-            "os": "Android"
-        }
-    ],
-    "users": [
-        {
-            "id": "1",
-            "name": "Himanshu",
-            "email": "himanshu@example.com",
-            "password": "123456"
-        },
-        {
-            "id": "2",
-            "name": "Rahul",
-            "email": "rahul@example.com",
-            "password": "abcdef"
-        },
-        {
-            "id": "6b2e",
-            "name": "Happy",
-            "email": "happy@gmail.com",
-            "password": "123456"
-        },
-        {
-            "id": "c468",
-            "name": "Happy",
-            "email": "happy1@gmail.com",
-            "password": "123456"
-        },
-        {
-            "id": "b13a",
-            "name": "Himanshu Dimri",
-            "email": "himanshudimrifullstack@gmail.com",
-            "password": "123456"
-        },
-        {
-            "id": "b08a",
-            "name": "Himanshu Dimri",
-            "email": "himanshudimri1fullstack@gmail.com",
-            "password": "asdfg"
-        },
-        {
-            "id": "884d",
-            "name": "Himanshu Dimri",
-            "email": "himanshudimrifullstack11@gmail.com",
-            "password": "123456"
-        }
-    ]
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "slug": "electronics"
+    },
+    {
+      "id": "2",
+      "name": "Fashion",
+      "slug": "fashion"
+    },
+    {
+      "id": "3",
+      "name": "Home & Kitchen",
+      "slug": "home-kitchen"
+    },
+    {
+      "id": "4",
+      "name": "Computers",
+      "slug": "computers"
+    },
+    {
+      "id": "5",
+      "name": "Watches",
+      "slug": "watches"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": "1",
+      "name": "Mobiles",
+      "slug": "mobiles",
+      "categoryId": 1
+    },
+    {
+      "id": "2",
+      "name": "Wrist Watches",
+      "slug": "wrist-watches",
+      "categoryId": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+      "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-1.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-1.jpg",
+        "/assets/product/mobile-1-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 16999,
+      "discount": 0,
+      "brand": "POCO",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "2",
+      "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+      "slug": "Nothing-Phone-Lite-Black-128",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-2.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-2.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 22999,
+      "discount": 14,
+      "brand": "Nothing",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "3",
+      "title": "Motorola G57 Power 5G",
+      "slug": "Motorola-G57-Snapdragon-Processor",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-3.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-3.jpg",
+        "/assets/product/mobile-3-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 17999,
+      "discount": 22,
+      "brand": "Motorola",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android"
+    },
+    {
+      "id": "4",
+      "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+      "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-1.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-1.jpg",
+        "/assets/product/mobile-1-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 16999,
+      "discount": 0,
+      "brand": "POCO",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "5",
+      "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+      "slug": "Nothing-Phone-Lite-Black-128",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-2.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-2.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 22999,
+      "discount": 14,
+      "brand": "Nothing",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "6",
+      "title": "Motorola G57 Power 5G",
+      "slug": "Motorola-G57-Snapdragon-Processor",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-3.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-3.jpg",
+        "/assets/product/mobile-3-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 17999,
+      "discount": 22,
+      "brand": "Motorola",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android"
+    },
+    {
+      "id": "7",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "8",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "9",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "10",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "11",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "12",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "13",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "14",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "15",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "16",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "17",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "18",
+      "title": "Sylvi Urbane Watch",
+      "slug": "sylvi-urbane-watch",
+      "subSlug": "wrist-watches",
+      "subcategoryId": 2,
+      "price": 1949,
+      "category": "watches",
+      "image": "/assets/product/watch.webp",
+      "thumbnails": [
+        "/assets/product/watch.webp",
+        "/assets/product/watch.webp"
+      ],
+      "rating": 3.8,
+      "reviews": "9.7K"
+    },
+    {
+      "id": "19",
+      "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+      "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-1.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-1.jpg",
+        "/assets/product/mobile-1-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 16999,
+      "discount": 0,
+      "brand": "POCO",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "20",
+      "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+      "slug": "Nothing-Phone-Lite-Black-128",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-2.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-2.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 22999,
+      "discount": 14,
+      "brand": "Nothing",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "21",
+      "title": "Motorola G57 Power 5G",
+      "slug": "Motorola-G57-Snapdragon-Processor",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-3.jpg",
+      "thumnails": [
+        "/assets/product/mobile-3.jpg",
+        "/assets/product/mobile-3-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 17999,
+      "discount": 22,
+      "brand": "Motorola",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android"
+    },
+    {
+      "id": "22",
+      "title": "Poco C85 5G Power Black 8GB RAM 128GB ROM",
+      "slug": "Poco-C85-5G-Power-Black-8GB-RAM-128GB-ROM",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-1.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-1.jpg",
+        "/assets/product/mobile-1-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 16999,
+      "discount": 0,
+      "brand": "POCO",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "23",
+      "title": "Nothing Phone (3a Lite) (Black, 128 GB)",
+      "slug": "Nothing-Phone-Lite-Black-128",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-2.jpg",
+      "thumbnails": [
+        "/assets/product/mobile-2.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 22999,
+      "discount": 14,
+      "brand": "Nothing",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android 15"
+    },
+    {
+      "id": "24",
+      "title": "Motorola G57 Power 5G",
+      "slug": "Motorola-G57-Snapdragon-Processor",
+      "subSlug": "mobiles",
+      "subcategoryId": 1,
+      "image": "/assets/product/mobile-3.jpg",
+      "thumnails": [
+        "/assets/product/mobile-3.jpg",
+        "/assets/product/mobile-3-1.jpg"
+      ],
+      "videoThumbnail": "/assets/product/mobile-video-thumbnail.jpg",
+      "rating": 3.8,
+      "reviews": "9.7K",
+      "price": 17999,
+      "discount": 22,
+      "brand": "Motorola",
+      "ram": "8GB",
+      "storage": "128GB",
+      "os": "Android"
+    }
+  ],
+  "users": [
+    {
+      "id": "05ed",
+      "name": "Himanshu Dimri",
+      "email": "himanshudimrifullstack@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e8af",
+      "name": "Himanshu Dimri",
+      "email": "rahul@example.com",
+      "password": "123"
+    },
+    {
+      "id": "f4a2",
+      "name": "Himanshu Dimri",
+      "email": "rahusdsl@example.com",
+      "password": "123"
+    },
+    {
+      "id": "895c",
+      "name": "Himanshu Dimri",
+      "email": "happyass@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "8f12",
+      "name": "Himanshu Dimri",
+      "email": "himanshudimrifullsdddddtack@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "caa1",
+      "name": "Himanshu Dimri",
+      "email": "himanshusdsdsd@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "29b9",
+      "name": "Himanshu",
+      "email": "himanshusdsdsddimrifullstack11@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "d9fb",
+      "name": "Himanshu Dimri",
+      "email": "rahulqwqwqw@example.com",
+      "password": "123456"
+    }
+  ]
 }

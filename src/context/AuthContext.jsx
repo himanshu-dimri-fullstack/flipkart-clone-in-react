@@ -10,23 +10,21 @@ const AuthProvider = ({ children }) => {
         return savedUser ? savedUser : null;
     })
 
-    useEffect(() => {
-        if (user) {
-            localStorage.setItem("user", JSON.stringify(user))
-        } else {
-            localStorage.removeItem("user")
-        }
-    }, [user])
+    const loginUser = (newUser) => {
+        setUser(newUser);
+        localStorage.setItem("user", JSON.stringify(newUser))
+        navigate("/dashboard");
+    }
 
     const logoutUser = () => {
         setUser(null);
-        console.log(user);
+        localStorage.removeItem("user")
         navigate("/login");
     }
 
     return (
         <>
-            <AuthContext.Provider value={{ user, setUser, logoutUser }}>
+            <AuthContext.Provider value={{ user, setUser, loginUser, logoutUser }}>
                 {children}
             </AuthContext.Provider>
         </>

@@ -11,6 +11,7 @@ import CheckoutPage from './pages/Checkout'
 import OrderSuccess from './pages/OrderSuccess'
 import Login from './pages/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard'
+import Signup from './pages/auth/Signup'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/order-success" element={<OrderSuccess />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />

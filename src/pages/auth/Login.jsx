@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
 
 const Login = () => {
-    const navigate = useNavigate();
-    const { setUser } = useContext(AuthContext);
+    // const navigate = useNavigate();
+    const { loginUser, setUser } = useContext(AuthContext);
     const [formData, setFormData] = useState({
         email: "",
         password: ""
@@ -23,14 +23,13 @@ const Login = () => {
         e.preventDefault();
         try {
             const res = await fetch(`http://localhost:3000/users?email=${formData.email}`);
-            const data = await res.json();
-            console.log(data,);
-            if (data.length === 0) {
+            const newUser = await res.json();
+
+            if (newUser.length === 0) {
                 setErrorMessage("User not found")
             }
-            if (data[0].password === formData.password) {
-                setUser(data[0]);
-                navigate("/dashboard", { state: data[0] })
+            if (newUser[0].password === formData.password) {
+                loginUser(newUser[0]);
             }
             else {
                 setErrorMessage("Invalid password")
