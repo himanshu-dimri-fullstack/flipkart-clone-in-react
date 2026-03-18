@@ -13,7 +13,7 @@ const Homepage = () => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            const res = await fetch("http://localhost:3000/products?subcategoryId=1");
+            const res = await fetch("https://flipkart-server-09gl.onrender.com/products?subcategoryId=1");
             const data = await res.json();
             setMobiles(data);
         }
@@ -21,7 +21,7 @@ const Homepage = () => {
     }, [])
     useEffect(() => {
         const fetchProducts = async () => {
-            const res = await fetch("http://localhost:3000/products?subcategoryId=2");
+            const res = await fetch("https://flipkart-server-09gl.onrender.com/products?subcategoryId=2");
             const data = await res.json();
             setWatches(data);
         }

@@ -21,14 +21,14 @@ const ProductDetailPage = () => {
     useEffect(() => {
         const fetchProduct = async () => {
             try {
-                const res = await fetch(`http://localhost:3000/products?slug=${slug}`);
+                const res = await fetch(`https://flipkart-server-09gl.onrender.com/products?slug=${slug}`);
                 const data = await res.json();
                 const subCategoryId = data[0].subcategoryId;
-                const subCat = await fetch(`http://localhost:3000/subcategories/${subCategoryId}`);
+                const subCat = await fetch(`https://flipkart-server-09gl.onrender.com/subcategories/${subCategoryId}`);
                 const subCatData = await subCat.json();
                 setSubCat(subCatData);
                 setProduct(data[0]);
-                const productsRes = await fetch(`http://localhost:3000/products?subcategoryId=${subCatData.id}`);
+                const productsRes = await fetch(`https://flipkart-server-09gl.onrender.com/products?subcategoryId=${subCatData.id}`);
                 const productsData = await productsRes.json();
                 setProducts(productsData);
             }

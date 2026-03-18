@@ -10,7 +10,7 @@ const ProductPage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await fetch(`http://localhost:3000/products?subSlug=${slug}`);
+                const res = await fetch(`https://flipkart-server-09gl.onrender.com/products?subSlug=${slug}`);
                 const data = await res.json();
                 setProducts(data);
             }
