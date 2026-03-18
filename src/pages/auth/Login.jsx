@@ -22,7 +22,7 @@ const Login = () => {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const res = await fetch(`http://localhost:3000/users?email=${formData.email}`);
+            const res = await fetch(`https://flipkart-server-09gl.onrender.com/users?email=${formData.email}`);
             const newUser = await res.json();
 
             if (newUser.length === 0) {
