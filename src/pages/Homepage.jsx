@@ -86,33 +86,30 @@ const Homepage = () => {
                         </div>
                 }
 
+
                 {
-                    loading ?
-                        <div className="flex justify-center items-center h-screen ">
-                            <div className="w-10 h-10 border-4 border-gray-300 border-t-[#ffe51f] rounded-full animate-spin"></div>
+                    watches.length > 0 &&
+                    <div className="">
+                        <div className="flex justify-between py-2 md:py-5">
+                            <h3 className="text-lg md:text-2xl text-black font-bold">Suggested for you</h3>
+                            <Link to={"/product/wrist-watches"} className="py-1 px-3 md:py-2 md:px-6 bg-[#2a55e5] border border-[#eee] rounded-2xl">
+                                <ArrowRight size={18} className="text-white" />
+                            </Link>
                         </div>
-                        :
-                        watches.length > 0 &&
-                        <div className="">
-                            <div className="flex justify-between py-2 md:py-5">
-                                <h3 className="text-lg md:text-2xl text-black font-bold">Suggested for you</h3>
-                                <Link to={"/product/wrist-watches"} className="py-1 px-3 md:py-2 md:px-6 bg-[#2a55e5] border border-[#eee] rounded-2xl">
-                                    <ArrowRight size={18} className="text-white" />
-                                </Link>
-                            </div>
-                            <div className="grid grid-cols-12 py-2">
-                                {
-                                    watches.slice(0, 6).map((product) => {
-                                        return (
-                                            <Link to={`/category/${product.subSlug}/${product.slug}`} key={product.id} className="col-span-6 md:col-span-4 lg:col-span-2 pr-2">
-                                                <ProductCard product={product} />
-                                            </Link>
-                                        )
-                                    })
-                                }
-                            </div>
+                        <div className="grid grid-cols-12 py-2">
+                            {
+                                watches.slice(0, 6).map((product) => {
+                                    return (
+                                        <Link to={`/category/${product.subSlug}/${product.slug}`} key={product.id} className="col-span-6 md:col-span-4 lg:col-span-2 pr-2">
+                                            <ProductCard product={product} />
+                                        </Link>
+                                    )
+                                })
+                            }
                         </div>
+                    </div>
                 }
+
             </div>
 
         </div>
