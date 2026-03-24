@@ -1,17 +1,17 @@
 # Flipkart Clone
 
-A full-stack eCommerce web application built using React (Vite) with a mock backend powered by json-server.
+A React (Vite) eCommerce web application with a JSON-based mock backend deployed on Vercel.
 
 ---
 
 ## Features
 
-- Responsive UI built with React (Vite) and Tailwind CSS
-- Built and consumed REST APIs using json-server (mock backend)  
-- Dynamic product detail pages using React Router params and API-driven data  
-- Add to Cart functionality using React Context API for global state management  
-- User authentication (Login/Signup) using json-server (mock API) and Context API  
-- Product data fetching and rendering from backend APIs  
+- Built a responsive UI using React (Vite) and Tailwind CSS
+- Developed and consumed RESTful APIs using a JSON-based backend (deployed on Vercel)
+- Implemented dynamic product detail pages with React Router params and API-driven data
+- Created Add to Cart functionality using React Context API for global state management
+- Implemented user authentication (Login/Signup) using Context API (temporary/mock, since backend is read-only)
+- Fetched and rendered product data from deployed backend APIs 
 
 ---
 
@@ -22,14 +22,14 @@ A full-stack eCommerce web application built using React (Vite) with a mock back
 - Tailwind CSS   
 
 ## Backend (Mock)
-- json-server  
+- JSON files (db.json) + API routes deployed on Vercel
+- Powered by a mock backend structure (read-only for GET requests)
 
 ---
 
 ## Live Demo
 
 👉 https://flipkart-clone-in-react-vite.vercel.app  
-⚠️ Note: Backend is hosted on Render (free tier), so initial request may take a few seconds due to cold start.
 
 ---
 
@@ -52,7 +52,7 @@ npm run dev
 
 ## Note
 
-This project uses json-server as a mock backend. It does not include a real production backend.
+This project uses JSON-based mock backend. It does not include a real production backend.
 
 ---
 
